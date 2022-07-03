@@ -492,7 +492,7 @@ ul {
 }
 
 .photo_gradient:hover {
-    background-color: linear-gradient (to bottom, #333, #ccc);
+    background-color: linear-gradient(to bottom, #333, #ccc);
 }
 
 .photo_gradient:hover img {
@@ -509,7 +509,7 @@ ul {
 }
 
 .news_nav_text {
-    font-family: Roboto-Light;
+    font-family: Roboto-Light, serif;
     font-weight: 300;
     color: #656464;
 }
@@ -520,7 +520,7 @@ ul {
     list-style-type: none;
     margin: 0;
     position: relative;
-    
+
 }
 
 .nav-list_item:first-child::before {
@@ -546,7 +546,7 @@ ul {
 }
 
 .nav-list_item {
-    font-style: Roboto-Bold;
+    font-family: Roboto-Bold, serif;
     font-weight: 700;
     width: 25px;
     height: 25px;
@@ -687,7 +687,7 @@ ul {
     background-image: url(/src/img/mail.png);
 }
 
-/* 
+/*
 
 INTRO PAGE
 
@@ -734,7 +734,7 @@ INTRO PAGE
     cursor: pointer;
 }
 
-/* 
+/*
 
 SERVICES
 
